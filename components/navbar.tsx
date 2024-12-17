@@ -1,4 +1,4 @@
-import Image from "next/image"
+
 function Navbar() {
 
     return (< div className="" >
