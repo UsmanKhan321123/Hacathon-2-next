@@ -1,6 +1,8 @@
+type button = {
+text :string
+}
 
-
-function Button(props:unknown){
+function Button(props:button){
 
     return(
         <>
