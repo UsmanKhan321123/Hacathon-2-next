@@ -1,5 +1,6 @@
 
 import Button from "./button"
+import Image from "next/image"
 function About(){
     return(
         <>
@@ -16,17 +17,17 @@ function About(){
                    </p>
 
                    <span className="flex gap-6 mt-10">
-                    <img src="/picture/check.png" alt="check" height={15} width={20} className="bg-white rounded-[50%]"/>
+                    <Image src="/picture/check.png" alt="check" height={15} width={20} className="bg-white rounded-[50%]"/>
                     <p className="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, esse.
 
                     </p>
                    </span>
                    <span className="flex gap-6 mt-5">
-                    <img src="/picture/check.png" alt="check" height={15} width={20} className="bg-white rounded-[50%]"/>
+                    <Image src="/picture/check.png" alt="check" height={15} width={20} className="bg-white rounded-[50%]"/>
                     <p className="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quod.</p>
                    </span>
                    <span className="flex gap-6 my-5">
-                    <img src="/picture/check.png" alt="check" height={15} width={20} className="bg-white rounded-[50%]"/>
+                    <Image src="/picture/check.png" alt="check" height={15} width={20} className="bg-white rounded-[50%]"/>
                     <p className="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, consectetur.</p>
                    </span>
                    <Button text="Read More" />
