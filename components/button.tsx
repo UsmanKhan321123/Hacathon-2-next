@@ -1,6 +1,6 @@
 
 
-function Button(props:any){
+function Button(props:unknown){
 
     return(
         <>
